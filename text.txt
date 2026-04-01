@@ -1,1 +1,13 @@
 
+sql-customer-analysis/
+│
+├── README.md
+│
+├── queries/
+│   ├── 01_basic_queries.sql
+│   ├── 02_joins.sql
+│   ├── 03_aggregations.sql
+│   └── 04_business_use_cases.sql
+│
+└── sample_data/
+    └── customer_orders_schema.sql
