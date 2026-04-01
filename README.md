@@ -1,58 +1,37 @@
 # SQL Customer Analysis
 
-This project contains SQL queries used for analyzing customer and order data.  
-It covers basic to intermediate SQL concepts with practical examples for data analysis.
+A structured SQL project for analyzing customer and order data using real-world business use cases.
+
+This project demonstrates SQL concepts from basic queries to business-level data analysis, including customer insights, revenue reporting, and order trend analysis.
 
 ---
 
-## Project Objective
-The purpose of this project is to perform customer data analysis using SQL queries such as:
+## Project Overview
 
-- Retrieving customer details
-- Filtering records
-- Aggregating data
-- Joining multiple tables
-- Analyzing order trends
+The objective of this project is to perform customer and sales analysis using SQL.
 
----
+It includes:
 
-## Topics Covered
+- Customer data retrieval
+- Order analysis
+- Revenue reporting
+- City-wise customer insights
+- Top customer identification
+- Aggregate and join operations
 
-- SELECT statements
-- WHERE conditions
-- ORDER BY
-- GROUP BY
-- HAVING clause
-- INNER JOIN
-- LEFT JOIN
-- Aggregate functions
-- Subqueries
+This project is useful for:
+
+- SQL Developer portfolio
+- Data Analyst practice
+- SQL interview preparation
+- Business reporting use cases
 
 ---
 
-## Database Tables Used
+## Project Structure
 
-### Customers Table
-| Column Name | Data Type |
-|------------|-----------|
-| id | INT |
-| name | VARCHAR |
-| city | VARCHAR |
-| email | VARCHAR |
-
-### Orders Table
-| Column Name | Data Type |
-|------------|-----------|
-| order_id | INT |
-| customer_id | INT |
-| order_amount | DECIMAL |
-| order_date | DATE |
-
----
-
-## Sample Queries
-
-### Get all customers
-```sql
-SELECT * 
-FROM customers;
+```text
+sql-customer-analysis/
+│
+├── README.md
+└── complete_customer_analysis.sql
