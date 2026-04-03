@@ -150,7 +150,7 @@ GROUP BY c.name
 HAVING COUNT(o.order_id) > 1;
 
 --------------------------------------------------
-
+-- ADVANCED QUERY
 --------------------------------------------------
 
 -- Average order amount
